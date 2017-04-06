@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>13</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>visorapp2</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>dribbles,cube</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/twist/</ImageTemplate>
+            <ImageTemplateName>Twist</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#F2C409</TemplateColor>
+            <TemplateFont>PT Sans</TemplateFont>
+            <TemplateName>twist</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>J:/git/app2-git/imagenes/motorola  DynaTAC 8000X.jpg</url>
+                <title>motorola  DynaTAC 8000X</title>
+                <filesize>44217</filesize>
+            </Image>
+            <Image>
+                <url>J:/git/app2-git/imagenes/motorola dynatac 8000x.jpg</url>
+                <title>motorola dynatac 8000x</title>
+                <filesize>4099</filesize>
+            </Image>
+            <Image>
+                <url>J:/git/app2-git/imagenes/movistar.png</url>
+                <title>movistar</title>
+                <filesize>3544</filesize>
+            </Image>
+            <Image>
+                <url>J:/git/app2-git/imagenes/Proyecto Ara.jpg</url>
+                <title>Proyecto Ara</title>
+                <filesize>55274</filesize>
+            </Image>
+            <Image>
+                <url>J:/git/app2-git/imagenes/reloj-proyector Ritot.png</url>
+                <title>reloj-proyector Ritot</title>
+                <filesize>716394</filesize>
+            </Image>
+            <Image>
+                <url>J:/git/app2-git/imagenes/samsung galaxy a7.jpg</url>
+                <title>samsung galaxy a7</title>
+                <filesize>64914</filesize>
+            </Image>
+            <Image>
+                <url>J:/git/app2-git/imagenes/Samsung galaxy s6.jpg</url>
+                <title>Samsung galaxy s6</title>
+                <filesize>42296</filesize>
+            </Image>
+            <Image>
+                <url>J:/git/app2-git/imagenes/samsung pocket neo.jpg</url>
+                <title>samsung pocket neo</title>
+                <filesize>8641</filesize>
+            </Image>
+            <Image>
+                <url>J:/git/app2-git/imagenes/sony.jpg</url>
+                <title>sony</title>
+                <filesize>99373</filesize>
+            </Image>
+            <Image>
+                <url>J:/git/app2-git/imagenes/telcel.jpg</url>
+                <title>telcel</title>
+                <filesize>9695</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

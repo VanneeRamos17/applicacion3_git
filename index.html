@@ -1,0 +1,468 @@
+<!doctype html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>Segunda  Aplicación</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app1.min.css"/>
+  <link rel="stylesheet"  href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet"  href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js"></script>
+  <script src="phonegap.js"></script>
+  
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+  </style>
+  
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+  
+ </head>
+
+ <body onLoad="MM_preloadImages('imagenes/gamaalta.jpg','imagenes/Samsung galaxy s6.jpg','imagenes/Lg g3 2.jpg','imagenes/motorola  DynaTAC 8000X.jpg','imagenes/samsung galaxy a7.jpg','imagenes/smartphone.jpg','imagenes/LG-G2.jpg','imagenes/antiguo2.jpg','imagenes/moderno2.jpg','imagenes/moderno1.jpg','imagenes/iPhone-6S.png')">
+ 
+ 
+
+ 
+    <div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-black-btn-txt="Regresar" data-back-btn-theme="b">
+     <h1>Telefonia celular</h1>
+    </div>
+    
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>teléfono celular</h1>
+       <div>
+        <p>Imagen de un teléfono celular:</p>
+        <br>
+       </div>
+       <div>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Samsung galaxy s6','','imagenes/Samsung galaxy s6.jpg',1)"><img src="imagenes/celular moderno.jpg" width="275" height="183" id="Samsung galaxy s6"></a> </div>
+     </div>
+    </div>
+    <div>
+    
+    
+    
+        
+        
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Definición</h2>
+        <p>Se muestra una breve descripción de lo que es un celular</p>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Historia de la telefonia celular </h2>
+         <p>Se muestra la Historia de la telefonia celular </p>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Clasificasión</h2>
+         <p>Clasificación del celular</p>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Compañías</h2>
+         <p>Muestra las compañias que ofrece un servicio en mexico</p>
+       </a>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Teléfonos del futuro</h2>
+       </a>
+     </li>
+     </li>
+     </ul>
+    </div>
+    
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/smartphone_1.jpg" alt="smartphone 1" title="smartphone 1" id="wows1_0"/></li>
+		<li><img src="data1/images/smartphone.jpg" alt="smartphone" title="smartphone" id="wows1_1"/></li>
+		<li><img src="data1/images/smartphone2.jpg" alt="smartphone2" title="smartphone2" id="wows1_2"/></li>
+		<li><img src="data1/images/smartphone3.jpg" alt="smartphone3" title="smartphone3" id="wows1_3"/></li>
+		<li><img src="data1/images/smartphone4.jpg" alt="smartphone4" title="smartphone4" id="wows1_4"/></li>
+		<li><img src="data1/images/smartphone5.jpg" alt="smartphone5" title="smartphone5" id="wows1_5"/></li>
+		<li><img src="data1/images/smartphone6.jpg" alt="smartphone6" title="smartphone6" id="wows1_6"/></li>
+		<li><img src="data1/images/smartphone7.jpg" alt="smartphone7" title="smartphone7" id="wows1_7"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/smartphone8.jpg" alt="http://wowslider.net/" title="smartphone8" id="wows1_8"/></a></li>
+		<li><img src="data1/images/smartphone9.jpg" alt="smartphone9" title="smartphone9" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="smartphone 1"><span><img src="data1/tooltips/smartphone_1.jpg" alt="smartphone 1"/>1</span></a>
+		<a href="#" title="smartphone"><span><img src="data1/tooltips/smartphone.jpg" alt="smartphone"/>2</span></a>
+		<a href="#" title="smartphone2"><span><img src="data1/tooltips/smartphone2.jpg" alt="smartphone2"/>3</span></a>
+		<a href="#" title="smartphone3"><span><img src="data1/tooltips/smartphone3.jpg" alt="smartphone3"/>4</span></a>
+		<a href="#" title="smartphone4"><span><img src="data1/tooltips/smartphone4.jpg" alt="smartphone4"/>5</span></a>
+		<a href="#" title="smartphone5"><span><img src="data1/tooltips/smartphone5.jpg" alt="smartphone5"/>6</span></a>
+		<a href="#" title="smartphone6"><span><img src="data1/tooltips/smartphone6.jpg" alt="smartphone6"/>7</span></a>
+		<a href="#" title="smartphone7"><span><img src="data1/tooltips/smartphone7.jpg" alt="smartphone7"/>8</span></a>
+		<a href="#" title="smartphone8"><span><img src="data1/tooltips/smartphone8.jpg" alt="smartphone8"/>9</span></a>
+		<a href="#" title="smartphone9"><span><img src="data1/tooltips/smartphone9.jpg" alt="smartphone9"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">wowslider.net</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <img src="imagenes/logo.png" width="46" height="46">
+      </div>
+      <div>
+       <h4>Aplicacion Dos</h4>
+       <h4>Vanessa Ramos Calvario</h4>
+      </div>
+     </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Telefonia celular</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2>Un teléfono celular es un dispositivo inalámbrico electrónico que permite tener acceso a la red de telefonía celular o móvil. Se denomina celular debido a las antenas repetidoras que conforman la red, cada una de las cuales es una célula, si bien existen redes telefónicas móviles satelitales. Su principal característica es su portabilidad, que permite comunicarse desde casi cualquier lugar. Aunque su principal función es la comunicación de voz, como el teléfono convencional, su rápido desarrollo ha incorporado otras funciones como son cámara fotográfica, agenda, acceso a internet, reproducción de video e incluso GPS y reproductor mp3.</h2>
+       </div>
+      </div>
+        <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Teléfonos 1</h1>
+       <div>
+        <p>Celulares </p>
+         <br>
+        <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image39','','imagenes/iPhone-6S.png',1)"><img src="imagenes/galaxy8.jpg" width="400" height="400" id="Image39"></a></div>
+       </div>
+     </div>
+    </div>
+     
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Teléfonos 2</h1>
+       <div>
+        <p>celulares:</p>
+        <br>
+       </div>
+       <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','imagenes/LG-G2.jpg',1)"><img src="imagenes/galaxyj5.jpg" width="300" height="250" id="Image36"></a></div>
+     </div>
+     
+    </div>  
+    </div>
+ <div data-role="footer" data-theme="a" data-position="fixed">
+       <h4>Aplicacion Dos, RCV</h4>
+      </div>
+     </div>
+      
+      
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Historia</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2>  Antonio Meucci (pronunciado [meúchi], 1808-1889) fue el inventor del «telettrófoni», posteriormente bautizado como «teléfono».2
+
+En 1854,3 Meucci construyó un teléfono para conectar su oficina (en la planta baja de su casa) con su dormitorio (ubicado en el segundo piso), debido a que su esposa estaba inmovilizada por el reumatismo. Sin embargo, Meucci carecía del dinero suficiente para patentar su invento, aunque sí patentó otros inventos que él creía más redituables, como un filtro económico para la depuración del agua y el uso de la parafina en la fabricación de velas (que hasta ese momento se fabricaban con grasa de animales, muy contaminantes y sucias).4
+
+En 1860 Antonio Meucci hizo público su invento, el teletrófono. En una demostración pública, la voz de un cantante se trasmitió a una considerable distancia. La prensa italiana de Nueva York publicó una descripción del invento y un tal Sr. Bendelari se llevó a Italia una copia del prototipo, y la documentación necesaria para producirlo allí, pero no se volvió a saber de él, como tampoco se materializó ninguna de las ofertas que surgieron tras la demostración.5
+
+Consciente de que alguien podía robarle la patente, pero incapaz de reunir los 250 dólares (unos 7900 dólares de 2016)6 que costaba la patente definitiva, tuvo que conformarse con un cáveat (‘aviso’, trámite preliminar de presentación de documentación para el patentamiento, con vigencia de un años) que registró el 28 de diciembre de 1871 y que pudo permitirse renovar ―por 10 dólares (o 314 dólares de 2016)―6 7 solo en 1872 y 1873.5
+
+En cuanto tuvo el acuse de recibo de Patentes, volvió a empeñarse en demostrar el potencial de su invento. Para ello, ofreció una demostración del «telégrafo parlante» a un empresario llamado Edward B. Grant, vicepresidente de una filial de la Western Union Telegraph Company. Cada vez que Meucci trataba de avanzar, se le decía que no había hueco para su demostración, así que a los dos años, Meucci pidió que le devolvieran su material, a lo que le contestaron que se había perdido.8
+
+En 1876, Alexander Graham Bell registró una patente que realmente no describía el teléfono pero lo mencionaba como tal.9 Cuando Meucci ―que vivía cerca de Nueva York― se enteró, pidió a un abogado que reclamara ante la oficina de patentes de los Estados Unidos en Washington, algo que nunca sucedió. Sin embargo, un amigo que tenía contactos en Washington, se enteró de que toda la documentación referente al telégrafo parlante registrada por Meucci se había perdido.8
+
+Una investigación posterior puso en evidencia un delito de prevaricación por parte de algunos empleados de la oficina de patentes con la compañía de Bell. En un litigio posterior entre la empresa Bell Telephone Company (creada en 1877) y Western Union, afloró que existía un acuerdo por el cual Bell pagaría a la Western Union un 20 % de los beneficios derivados de la comercialización de su invento durante 17 años.10
+
+Diez años después, en un proceso legal de 1886, Meucci tuvo que demandar incluso a su propio abogado, sobornado por el poderoso Bell. Sin embargo Meucci supo hacer entender al juez que no cabía duda en cuanto a la autoría del invento registrado. A pesar de la declaración pública del entonces Secretario de Estado: «Existen suficientes pruebas para dar prioridad a Meucci en la invención del teléfono».10
+
+A pesar de que el Gobierno de Estados Unidos inició acciones legales por fraude contra la patente de Alexander Graham Bell, el proceso embarrancó en el arenal de los recursos por los abogados de Bell, hasta cerrarse en 1889 debido a la muerte de Meucci.8
+
+Meucci falleció pobre y amargado y jamás vio la gloria y el reconocimiento de su talento, el cual chocó con su escaso conocimiento del inglés y su poca desenvoltura ante las artimañas legales y los ingentes intereses económicos de las grandes corporaciones de Estados Unidos.11
+
+El 11 de junio de 2002, el Boletín Oficial de la Cámara de Representantes de los Estados Unidos publicó la Resolución n.º 269, por la que se honra la vida y el trabajo del inventor italoestadounidense. En la misma se reconoce que fue más bien Antonio Meucci en vez de Alexander Graham Bell quien inventó el teléfono.12 Reconoció además que Meucci demostró y publicó su invento en 1860 y concluye con un reconocimiento a su autoría en dicha invención</h2></div>
+       </div>
+     
+        <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Teléfonos antiguos</h1>
+       <div>
+        <p>celulares antiguos:</p>
+        <br>
+       </div>
+       <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image37','','imagenes/antiguo2.jpg',1)"><img src="imagenes/antiguo1.jpg" width="300" height="400" id="Image37"></a></div>
+     </div>
+     </div>
+     
+        <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Teléfonos modernos</h1>
+       <div>
+        <p> celulares modernos:</p>
+        <br>
+        </div>
+        <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image38','','imagenes/moderno1.jpg',1)"><img src="imagenes/moderno2.jpg" width="400" height="300" id="Image38"></a></div>
+      </div>
+       </div>
+    
+   
+      
+ <div data-role="footer" data-theme="a" data-position="fixed">
+       <h4>Aplicacion Dos, RCV</h4>
+      </div>
+ </div>
+       
+       
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Clasificación</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2> Gama Alta</h2></div>
+       </div>
+        <p> <center>El iPhone 7 lleva la esencia del iPhone a su máxima expresión. Tiene nuevos y avanzados sistemas de cámara. El mejor rendimiento y la mayor duración de batería en un iPhone. Bocinas estéreo con un sonido envolvente. Una pantalla más brillante y con más colores. Una carcasa resistente a las salpicaduras y al agua.1 Y una potencia enorme en un diseño increíble. Este es el iPhone 7</center> </p>
+         <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>iPhone7 Plus</h1>
+       <div>
+        <p>Teléfono gama alta:</p>
+        <br>
+       </div>
+       <div>
+         <img src="imagenes/iphone 7.jpg" width="100%" height="100%">
+       </div>
+     </div>
+    </div>
+    
+    <div data-role="content" align="center">
+     <div>
+        <h2> Gama Media</h2></div>
+       </div>
+       <p> <center>Simplemente
+elegante.La elegancia en su forma más pura, presentada en un diseño minimalista que disfrutarás al máximo. La parte posterior, de vidrio 3D altamente resistente, se fusiona con su óptima pantalla de 5.7” para ofrecerte un diseño impecable.
+Tamaño de la pantalla: 5.7 pulgadasPantalla de 5.7”Completamenteuniforme
+Hermoso por donde lo veas. La parte posterior está absolutamente nivelada, sin relieves en la cámara, uniforme, liso y simétrico desde todos sus ángulos:</center> </p>
+       <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Samsung Galaxy S5</h1>
+       <div>
+        <p>Teléfono gama media:</p>
+        <br>
+       </div>
+       <div>
+         <img src="imagenes/gamamedia.jpg" width="100%" height="100%">
+       </div>
+     </div>
+    </div>
+       
+       <div data-role="content" align="center">
+        <div>
+        <h2> Gama Baja</h2></div>
+       </div>
+       <p> <center>China es un terreno fértil en lo que a lanzamientos de nuevos smartphones se refiere. Marcas como OnePlus, Oppo o Xiaomi están poniendo las cosas más difíciles a las compañías tradicionales ofreciendo terminales muy completos a precios de derribo, pero no todo lo que llega desde China es tan interesante. A veces también nos encontramos con propuestas de lo más descabelladas arriesgadas, como es el caso de este nuevo phablet con Windows 10 de la empresa Cube.
+
+La plataforma móvil de Microsoft está atravesando su peor momento. La cuota de mercado no deja de descender y cada vez hay menos marcas que apuestan por esta plataforma, pero en Cube han querido aportar su granito de arena con un dispositivo que combina una pantalla de siete pulgadas con una hoja técnica propia de un gama de entrada:</center> </p>
+       <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Phablet</h1>
+       <div>
+        <p>Teléfono gama baja:</p>
+        <br>
+       </div>
+       <div>
+         <img src="imagenes/phablet con Windows 10 de Cube.jpg" width="100%" height="100%">
+       </div>
+     </div>
+    </div>
+      <div data-role="footer" data-theme="a" data-position="fixed">
+       <h4>Aplicacion Dos, RCV</h4>
+      </div>
+ </div>  
+       
+       
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Compañías en Mexico</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2> Compañías </h2>
+       </div>
+       </div>
+       
+       <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Telcel</h1>
+       <div>
+       <p>Logo de la compañia celular:</p>
+          <A HREF="http://www.telcel.com/" target="_self" ><img src="imagenes/telcel.jpg" width="50%" height="50%">
+          </A>
+          <p>(Clic en el logo para ir a la pagina de Telcel)</p>
+   
+      
+       </div>
+     </div>
+    </div>
+    
+     
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Movistar</h1>
+       <div>
+        <p> Logo de la compañia celular:</p>
+         <A HREF="http://www.movistar.com.mx/" target="_self" ><img src="imagenes/movistar.png" width="50%" height="50%">
+         </A>
+          <p>(Clic en el logo para ir a la pagina de Movistar)</p>
+       </div>
+     </div>
+    </div>
+
+<div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Unefon</h1>
+       <div>
+       <p>Logo de la compañia celular:</p>
+          <A HREF="https://www.unefon.com.mx/" target="_self" ><img src="imagenes/unefon.png" width="50%" height="50%">
+        
+         </A>
+     <p>(Clic en el logo para ir a la pagina de Unefon)</p>
+       </div>
+     </div>
+    </div>
+    
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>AT&T</h1>
+       <div>
+       <p>Logo de la compañia celular:</p>
+           <A HREF="https://www.att.com.mx/" target="_self" ><img src="imagenes/at&t.png" width="50%" height="50%">
+         </A>
+         <p>(Clic en el logo para ir a la pagina de AT&T)</p>
+      </div>
+     </div>
+    </div>
+ <div data-role="footer" data-theme="a" data-position="fixed">
+       <h4>Aplicacion Dos, RCV</h4>
+      </div>
+       </div>
+       </div>
+       
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Teléfonos del futuro</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2> Estos son los telefonos del futuro </h2>
+        </div>
+       </div>
+       
+        
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>NOKIA 888</h1>
+       <div>
+       <p>Es el primer móvil flexible creado por el turco Tamer Nakisci, flamante ganador de los Premios de Diseño de los Países Bajos.
+ 
+Está diseñado para otorgar la máxima libertad y diversión, ya que puede cambiar de forma según las necesidades del usuario, gracias a su batería líquida. Puedes llevarlo como pulsera, enrollado en el bolsillo o como prefieras. Cuando recibe una llamada adopta la forma de los teléfonos tradicionales.
+ 
+Este prototipo permitiría enviar formas del teléfono a otros usuarios, por ejemplo si quieres mandarle un corazón a tu novia, sólo haz que tu teléfono se convierta en un corazón. De momento no saldrá al mercado:</p>
+         <img src="imagenes/Nokia888.jpg" width="50%" height="50%">
+     
+      </div>
+     </div>
+    </div>
+    
+    
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>NOKIA MORPH 4</h1>
+       <div>
+       <p>Nokia junto a la Universidad de Cambridge crearon un celular moldeable vía nanotecnología, denominado “Morph”.
+ 
+Este celular es como salido de una película futurista. Lo más sorprendente es su increíble capacidad de moldearse en diferentes formas. Entre otro de sus atractivos destaca además su gran panel para ver videos.
+ 
+Otra de las novedades de este súper teléfono es que posee una superficie “auto-lavable” y chips electrónicos totalmente transparentes al ojo humano.
+ 
+De llegarse a concretar su fabricación masiva, este celular estaría a la venta dentro de siete años más:</p>
+        <img src="imagenes/nokia-morph.jpg" width="50%" height="50%">
+        
+      </div>
+ </div>
+    </div>
+    
+    
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Eco Mode</h1>
+       <div>
+       <p>Estos son los telefonos del futuro:</p>
+        <img src="imagenes/eco mode.jpg" width="50%" height="50%">
+        
+       </div>
+     </div>
+    </div>
+    
+    
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>BLACK BOX</h1>
+       <div>
+       <p>Nokia junto a la Universidad de Cambridge crearon un celular moldeable vía nanotecnología, denominado “Morph”.
+ 
+Este celular es como salido de una película futurista. Lo más sorprendente es su increíble capacidad de moldearse en diferentes formas. Entre otro de sus atractivos destaca además su gran panel para ver videos.
+ 
+Otra de las novedades de este súper teléfono es que posee una superficie “auto-lavable” y chips electrónicos totalmente transparentes al ojo humano.
+ 
+De llegarse a concretar su fabricación masiva, este celular estaría a la venta dentro de siete años más:</p>
+        <img src="imagenes/box.jpg" width="50%" height="50%">
+       </div>
+     </div>
+    </div>
+      
+
+    
+      <div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Aplicacion Dos, RCV</h4>
+      </div>
+      
+       </div>
+       </div>
+       
+</body>
+</html>
+
